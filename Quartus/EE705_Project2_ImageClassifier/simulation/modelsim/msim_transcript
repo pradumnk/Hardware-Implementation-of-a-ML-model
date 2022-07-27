@@ -1,0 +1,296 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do ImageClassifier_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Documents/Quartus\ Projects/EE705_Project2_ImageClassifier {D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/multiplier_fp_32bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:26:20 on May 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier" D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/multiplier_fp_32bit.v 
+# -- Compiling module multiplier_fp_32bit_altfp_mult_fkn
+# -- Compiling module multiplier_fp_32bit
+# 
+# Top level modules:
+# 	multiplier_fp_32bit
+# End time: 18:26:20 on May 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documents/Quartus\ Projects/EE705_Project2_ImageClassifier {D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/add_fp_32bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:26:20 on May 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier" D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/add_fp_32bit.v 
+# -- Compiling module add_fp_32bit_altbarrel_shift_ltd
+# -- Compiling module add_fp_32bit_altbarrel_shift_aeb
+# -- Compiling module add_fp_32bit_altpriority_encoder_3e8
+# -- Compiling module add_fp_32bit_altpriority_encoder_6e8
+# -- Compiling module add_fp_32bit_altpriority_encoder_be8
+# -- Compiling module add_fp_32bit_altpriority_encoder_3v7
+# -- Compiling module add_fp_32bit_altpriority_encoder_6v7
+# -- Compiling module add_fp_32bit_altpriority_encoder_bv7
+# -- Compiling module add_fp_32bit_altpriority_encoder_r08
+# -- Compiling module add_fp_32bit_altpriority_encoder_rf8
+# -- Compiling module add_fp_32bit_altpriority_encoder_qb6
+# -- Compiling module add_fp_32bit_altpriority_encoder_nh8
+# -- Compiling module add_fp_32bit_altpriority_encoder_qh8
+# -- Compiling module add_fp_32bit_altpriority_encoder_vh8
+# -- Compiling module add_fp_32bit_altpriority_encoder_fj8
+# -- Compiling module add_fp_32bit_altpriority_encoder_n28
+# -- Compiling module add_fp_32bit_altpriority_encoder_q28
+# -- Compiling module add_fp_32bit_altpriority_encoder_v28
+# -- Compiling module add_fp_32bit_altpriority_encoder_f48
+# -- Compiling module add_fp_32bit_altpriority_encoder_e48
+# -- Compiling module add_fp_32bit_altfp_add_sub_nti
+# -- Compiling module add_fp_32bit
+# 
+# Top level modules:
+# 	add_fp_32bit
+# End time: 18:26:20 on May 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documents/Quartus\ Projects/EE705_Project2_ImageClassifier {D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/float32_fixed32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:26:20 on May 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier" D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/float32_fixed32.v 
+# -- Compiling module float32_fixed32_altbarrel_shift_g4h
+# -- Compiling module float32_fixed32_altfp_convert_e0n
+# -- Compiling module float32_fixed32
+# 
+# Top level modules:
+# 	float32_fixed32
+# End time: 18:26:20 on May 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documents/Quartus\ Projects/EE705_Project2_ImageClassifier {D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/fixed32_float32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:26:20 on May 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier" D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/fixed32_float32.v 
+# -- Compiling module fixed32_float32_altbarrel_shift_fof
+# -- Compiling module fixed32_float32_altpriority_encoder_3e8
+# -- Compiling module fixed32_float32_altpriority_encoder_6e8
+# -- Compiling module fixed32_float32_altpriority_encoder_be8
+# -- Compiling module fixed32_float32_altpriority_encoder_3v7
+# -- Compiling module fixed32_float32_altpriority_encoder_6v7
+# -- Compiling module fixed32_float32_altpriority_encoder_bv7
+# -- Compiling module fixed32_float32_altpriority_encoder_r08
+# -- Compiling module fixed32_float32_altpriority_encoder_rf8
+# -- Compiling module fixed32_float32_altpriority_encoder_qb6
+# -- Compiling module fixed32_float32_altfp_convert_e0n
+# -- Compiling module fixed32_float32
+# 
+# Top level modules:
+# 	fixed32_float32
+# End time: 18:26:20 on May 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documents/Quartus\ Projects/EE705_Project2_ImageClassifier {D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/address_generator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:26:20 on May 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier" D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/address_generator.v 
+# -- Compiling module address_gen
+# 
+# Top level modules:
+# 	address_gen
+# End time: 18:26:20 on May 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documents/Quartus\ Projects/EE705_Project2_ImageClassifier {D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/activation_function_FixedPt32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:26:20 on May 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier" D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/activation_function_FixedPt32.v 
+# -- Compiling module sigmoid_approx
+# 
+# Top level modules:
+# 	sigmoid_approx
+# End time: 18:26:20 on May 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documents/Quartus\ Projects/EE705_Project2_ImageClassifier {D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/ann_architecture.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:26:20 on May 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier" D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/ann_architecture.v 
+# -- Compiling module ann_architecture
+# 
+# Top level modules:
+# 	ann_architecture
+# End time: 18:26:20 on May 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documents/Quartus\ Projects/EE705_Project2_ImageClassifier {D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/WeightsLayer01.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:26:20 on May 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier" D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/WeightsLayer01.v 
+# -- Compiling module WeightsLayer01
+# 
+# Top level modules:
+# 	WeightsLayer01
+# End time: 18:26:20 on May 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documents/Quartus\ Projects/EE705_Project2_ImageClassifier {D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/WeightsLayer12.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:26:20 on May 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier" D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/WeightsLayer12.v 
+# -- Compiling module WeightsLayer12
+# 
+# Top level modules:
+# 	WeightsLayer12
+# End time: 18:26:20 on May 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documents/Quartus\ Projects/EE705_Project2_ImageClassifier {D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/BiasesLayer01.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:26:20 on May 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier" D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/BiasesLayer01.v 
+# -- Compiling module BiasesLayer01
+# 
+# Top level modules:
+# 	BiasesLayer01
+# End time: 18:26:20 on May 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documents/Quartus\ Projects/EE705_Project2_ImageClassifier {D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/BiasesLayer12.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:26:21 on May 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier" D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/BiasesLayer12.v 
+# -- Compiling module BiasesLayer12
+# 
+# Top level modules:
+# 	BiasesLayer12
+# End time: 18:26:21 on May 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documents/Quartus\ Projects/EE705_Project2_ImageClassifier {D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/ip2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:26:21 on May 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier" D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/ip2.v 
+# -- Compiling module ip2
+# 
+# Top level modules:
+# 	ip2
+# End time: 18:26:21 on May 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documents/Quartus\ Projects/EE705_Project2_ImageClassifier/db {D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/db/mult_ncs.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:26:21 on May 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/db" D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/db/mult_ncs.v 
+# -- Compiling module mult_ncs
+# 
+# Top level modules:
+# 	mult_ncs
+# End time: 18:26:21 on May 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documents/Quartus\ Projects/EE705_Project2_ImageClassifier/db {D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/db/mult_ll01.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:26:21 on May 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/db" D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/db/mult_ll01.v 
+# -- Compiling module mult_ll01
+# 
+# Top level modules:
+# 	mult_ll01
+# End time: 18:26:21 on May 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim -L altera_mf_ver -L lpm_ver -L cyclonev_ver -L cyclonev_ver work.ann_architecture
+# vsim -L altera_mf_ver -L lpm_ver -L cyclonev_ver -L cyclonev_ver work.ann_architecture 
+# Start time: 18:26:35 on May 05,2022
+# Loading work.ann_architecture
+# Loading work.address_gen
+# Loading work.ip2
+# Loading altera_mf_ver.altsyncram
+# Loading work.WeightsLayer01
+# Loading work.BiasesLayer01
+# Loading work.WeightsLayer12
+# Loading work.BiasesLayer12
+# Loading work.multiplier_fp_32bit
+# Loading work.multiplier_fp_32bit_altfp_mult_fkn
+# Loading lpm_ver.lpm_add_sub
+# Loading lpm_ver.lpm_mult
+# Loading lpm_ver.LPM_HINT_EVALUATION
+# Loading work.add_fp_32bit
+# Loading work.add_fp_32bit_altfp_add_sub_nti
+# Loading work.add_fp_32bit_altbarrel_shift_ltd
+# Loading work.add_fp_32bit_altbarrel_shift_aeb
+# Loading work.add_fp_32bit_altpriority_encoder_qb6
+# Loading work.add_fp_32bit_altpriority_encoder_r08
+# Loading work.add_fp_32bit_altpriority_encoder_be8
+# Loading work.add_fp_32bit_altpriority_encoder_6e8
+# Loading work.add_fp_32bit_altpriority_encoder_3e8
+# Loading work.add_fp_32bit_altpriority_encoder_bv7
+# Loading work.add_fp_32bit_altpriority_encoder_6v7
+# Loading work.add_fp_32bit_altpriority_encoder_3v7
+# Loading work.add_fp_32bit_altpriority_encoder_rf8
+# Loading work.add_fp_32bit_altpriority_encoder_e48
+# Loading work.add_fp_32bit_altpriority_encoder_fj8
+# Loading work.add_fp_32bit_altpriority_encoder_vh8
+# Loading work.add_fp_32bit_altpriority_encoder_qh8
+# Loading work.add_fp_32bit_altpriority_encoder_nh8
+# Loading work.add_fp_32bit_altpriority_encoder_f48
+# Loading work.add_fp_32bit_altpriority_encoder_v28
+# Loading work.add_fp_32bit_altpriority_encoder_q28
+# Loading work.add_fp_32bit_altpriority_encoder_n28
+# Loading lpm_ver.lpm_compare
+# Loading work.float32_fixed32
+# Loading work.float32_fixed32_altfp_convert_e0n
+# Loading work.float32_fixed32_altbarrel_shift_g4h
+# Loading work.sigmoid_approx
+# Loading work.fixed32_float32
+# Loading work.fixed32_float32_altfp_convert_e0n
+# Loading work.fixed32_float32_altbarrel_shift_fof
+# Loading work.fixed32_float32_altpriority_encoder_qb6
+# Loading work.fixed32_float32_altpriority_encoder_r08
+# Loading work.fixed32_float32_altpriority_encoder_be8
+# Loading work.fixed32_float32_altpriority_encoder_6e8
+# Loading work.fixed32_float32_altpriority_encoder_3e8
+# Loading work.fixed32_float32_altpriority_encoder_bv7
+# Loading work.fixed32_float32_altpriority_encoder_6v7
+# Loading work.fixed32_float32_altpriority_encoder_3v7
+# Loading work.fixed32_float32_altpriority_encoder_rf8
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: Design size of 36223 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+add wave -position insertpoint  \
+sim:/ann_architecture/clk \
+sim:/ann_architecture/out \
+sim:/ann_architecture/clk_address \
+sim:/ann_architecture/address_a1 \
+sim:/ann_architecture/address_b1 \
+sim:/ann_architecture/address_enable \
+sim:/ann_architecture/x_a \
+sim:/ann_architecture/x_b \
+sim:/ann_architecture/Xin_i \
+sim:/ann_architecture/Xin \
+sim:/ann_architecture/W01_a \
+sim:/ann_architecture/W01_b \
+sim:/ann_architecture/Win01_i \
+sim:/ann_architecture/Win01 \
+sim:/ann_architecture/B01_a \
+sim:/ann_architecture/B01_b \
+sim:/ann_architecture/Bin01_i \
+sim:/ann_architecture/Bin01 \
+sim:/ann_architecture/W12_a \
+sim:/ann_architecture/W12_b \
+sim:/ann_architecture/Win12_i \
+sim:/ann_architecture/Win12 \
+sim:/ann_architecture/B12_a \
+sim:/ann_architecture/B12_b \
+sim:/ann_architecture/Bin12_i \
+sim:/ann_architecture/Bin12 \
+sim:/ann_architecture/multiplier_op_stage01_1_wire \
+sim:/ann_architecture/adder_op_stage01_1_wire \
+sim:/ann_architecture/adder_op_stage01_2_wire \
+sim:/ann_architecture/adder_op_stage01_3_wire \
+sim:/ann_architecture/adder_op_stage01_4_wire \
+sim:/ann_architecture/adder_op_stage01_5_wire \
+sim:/ann_architecture/adder_op_stage01_6_wire \
+sim:/ann_architecture/adder_op_stage01_7_wire \
+sim:/ann_architecture/adder_op_stage01_7_wire_FixedPt \
+sim:/ann_architecture/stage1_op_FixedPt \
+sim:/ann_architecture/stage1_op \
+sim:/ann_architecture/multiplier_op_stage12_1_wire \
+sim:/ann_architecture/adder_op_stage12_1_wire \
+sim:/ann_architecture/adder_op_stage12_2_wire \
+sim:/ann_architecture/adder_op_stage12_3_wire \
+sim:/ann_architecture/adder_op_stage12_4_wire \
+sim:/ann_architecture/adder_op_stage12_4_wire_FixedPt \
+sim:/ann_architecture/stage2_op_FixedPt
+force -freeze sim:/ann_architecture/clk 1 0, 0 {5 ps} -r 10
+run

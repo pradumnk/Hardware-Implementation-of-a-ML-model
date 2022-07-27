@@ -1,0 +1,6 @@
+# Synthesis script for yosys created by qflow
+read_liberty -lib -ignore_miss_dir -setattr blackbox /usr/local/share/qflow/tech/osu035/osu035_stdcells.lib
+read_verilog  /home/osboxes/Downloads/QFlow/Image_Classifer/source/add_fp_32bit.v
+read_verilog  lpm_compare.v
+# Hierarchy check
+hierarchy -check

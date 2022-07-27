@@ -1,0 +1,157 @@
+Flow report for ImageClassifier
+Thu May 05 17:30:06 2022
+Quartus Prime Version 18.1.1 Build 646 04/11/2019 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Thu May 05 17:29:47 2022       ;
+; Quartus Prime Version           ; 18.1.1 Build 646 04/11/2019 SJ Lite Edition ;
+; Revision Name                   ; ImageClassifier                             ;
+; Top-level Entity Name           ; ann_architecture                            ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CGXFC7C7F23C8                              ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 293825                                      ;
+; Total pins                      ; 3                                           ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 10,524,766                                  ;
+; Total DSP Blocks                ; 156                                         ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 05/05/2022 17:04:16 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; ImageClassifier     ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                      ;
++-------------------------------------+----------------------------------------+-----------------+------------------+-----------------------------------+
+; Assignment Name                     ; Value                                  ; Default Value   ; Entity Name      ; Section Id                        ;
++-------------------------------------+----------------------------------------+-----------------+------------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID               ; 79965013989758.165175045610480         ; --              ; --               ; --                                ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --              ; --               ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --              ; --               ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --              ; --               ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --              ; --               ; eda_board_design_symbol           ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --              ; --               ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>          ; --               ; --                                ;
+; EDA_TIME_SCALE                      ; 1 ps                                   ; --              ; --               ; eda_simulation                    ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --              ; --               ; --                                ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --              ; --               ; --                                ;
+; MISC_FILE                           ; multiplier_fp_32bit.bsf                ; --              ; --               ; --                                ;
+; MISC_FILE                           ; multiplier_fp_32bit_inst.v             ; --              ; --               ; --                                ;
+; MISC_FILE                           ; multiplier_fp_32bit_bb.v               ; --              ; --               ; --                                ;
+; MISC_FILE                           ; multiplier_fp_32bit.inc                ; --              ; --               ; --                                ;
+; MISC_FILE                           ; multiplier_fp_32bit.cmp                ; --              ; --               ; --                                ;
+; MISC_FILE                           ; add_fp_32bit_bb.v                      ; --              ; --               ; --                                ;
+; MISC_FILE                           ; float32_fixed32.bsf                    ; --              ; --               ; --                                ;
+; MISC_FILE                           ; float32_fixed32_inst.v                 ; --              ; --               ; --                                ;
+; MISC_FILE                           ; float32_fixed32_bb.v                   ; --              ; --               ; --                                ;
+; MISC_FILE                           ; float32_fixed32.inc                    ; --              ; --               ; --                                ;
+; MISC_FILE                           ; float32_fixed32.cmp                    ; --              ; --               ; --                                ;
+; MISC_FILE                           ; fixed32_float32.bsf                    ; --              ; --               ; --                                ;
+; MISC_FILE                           ; fixed32_float32_inst.v                 ; --              ; --               ; --                                ;
+; MISC_FILE                           ; fixed32_float32_bb.v                   ; --              ; --               ; --                                ;
+; MISC_FILE                           ; fixed32_float32.inc                    ; --              ; --               ; --                                ;
+; MISC_FILE                           ; fixed32_float32.cmp                    ; --              ; --               ; --                                ;
+; MISC_FILE                           ; WeightsLayer01_bb.v                    ; --              ; --               ; --                                ;
+; MISC_FILE                           ; WeightsLayer12_bb.v                    ; --              ; --               ; --                                ;
+; MISC_FILE                           ; ip1_bb.v                               ; --              ; --               ; --                                ;
+; MISC_FILE                           ; BiasesLayer01_bb.v                     ; --              ; --               ; --                                ;
+; MISC_FILE                           ; BiasesLayer12_bb.v                     ; --              ; --               ; --                                ;
+; MISC_FILE                           ; ip2_bb.v                               ; --              ; --               ; --                                ;
+; MISC_FILE                           ; ip3_bb.v                               ; --              ; --               ; --                                ;
+; MISC_FILE                           ; ip4_bb.v                               ; --              ; --               ; --                                ;
+; MISC_FILE                           ; ip5_bb.v                               ; --              ; --               ; --                                ;
+; MISC_FILE                           ; ip6_bb.v                               ; --              ; --               ; --                                ;
+; MISC_FILE                           ; ip7_bb.v                               ; --              ; --               ; --                                ;
+; MISC_FILE                           ; ip8_bb.v                               ; --              ; --               ; --                                ;
+; MISC_FILE                           ; ip9_bb.v                               ; --              ; --               ; --                                ;
+; MISC_FILE                           ; ip10_bb.v                              ; --              ; --               ; --                                ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --              ; ann_architecture ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --              ; ann_architecture ; Top                               ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --              ; ann_architecture ; Top                               ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --              ; --               ; --                                ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --              ; --               ; --                                ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --              ; --               ; --                                ;
+; TOP_LEVEL_ENTITY                    ; ann_architecture                       ; ImageClassifier ; --               ; --                                ;
++-------------------------------------+----------------------------------------+-----------------+------------------+-----------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:19:58     ; 1.6                     ; 11274 MB            ; 00:30:48                           ;
+; Total                ; 00:19:58     ; --                      ; --                  ; 00:30:48                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-D1UCJKS  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off ImageClassifier -c ImageClassifier
+
+
+

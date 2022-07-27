@@ -1,0 +1,61 @@
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2016  Clifford Wolf <clifford@clifford.at>           |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.7 (git sha1 61f6811, gcc 5.4.0-6ubuntu1~16.04.4 -O2 -fstack-protector-strong -fPIC -Os)
+
+
+-- Executing script file `add_fp_32bit.ys' --
+
+1. Executing Liberty frontend.
+Imported 39 cell types from liberty file.
+
+2. Executing Verilog-2005 frontend.
+Parsing Verilog input from `/home/osboxes/Downloads/QFlow/Image_Classifer/source/add_fp_32bit.v' to AST representation.
+Warning: Found one of those horrible `(synopsys|synthesis) translate_off' comments.
+Yosys does support them but it is recommended to use `ifdef constructs instead!
+Generating RTLIL representation for module `\add_fp_32bit_altbarrel_shift_ltd'.
+Generating RTLIL representation for module `\add_fp_32bit_altbarrel_shift_aeb'.
+Generating RTLIL representation for module `\add_fp_32bit_altpriority_encoder_3e8'.
+Generating RTLIL representation for module `\add_fp_32bit_altpriority_encoder_6e8'.
+Generating RTLIL representation for module `\add_fp_32bit_altpriority_encoder_be8'.
+Generating RTLIL representation for module `\add_fp_32bit_altpriority_encoder_3v7'.
+Generating RTLIL representation for module `\add_fp_32bit_altpriority_encoder_6v7'.
+Generating RTLIL representation for module `\add_fp_32bit_altpriority_encoder_bv7'.
+Generating RTLIL representation for module `\add_fp_32bit_altpriority_encoder_r08'.
+Generating RTLIL representation for module `\add_fp_32bit_altpriority_encoder_rf8'.
+Generating RTLIL representation for module `\add_fp_32bit_altpriority_encoder_qb6'.
+Generating RTLIL representation for module `\add_fp_32bit_altpriority_encoder_nh8'.
+Generating RTLIL representation for module `\add_fp_32bit_altpriority_encoder_qh8'.
+Generating RTLIL representation for module `\add_fp_32bit_altpriority_encoder_vh8'.
+Generating RTLIL representation for module `\add_fp_32bit_altpriority_encoder_fj8'.
+Generating RTLIL representation for module `\add_fp_32bit_altpriority_encoder_n28'.
+Generating RTLIL representation for module `\add_fp_32bit_altpriority_encoder_q28'.
+Generating RTLIL representation for module `\add_fp_32bit_altpriority_encoder_v28'.
+Generating RTLIL representation for module `\add_fp_32bit_altpriority_encoder_f48'.
+Generating RTLIL representation for module `\add_fp_32bit_altpriority_encoder_e48'.
+Generating RTLIL representation for module `\add_fp_32bit_altfp_add_sub_nti'.
+Generating RTLIL representation for module `\add_fp_32bit'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend.
+ERROR: Can't open input file `lpm_compare.v' for reading: No such file or directory
+Errors detected in verilog source, need to be corrected.
+Synthesis flow stopped due to error condition.

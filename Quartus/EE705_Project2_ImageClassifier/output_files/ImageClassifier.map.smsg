@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at ann_architecture.v(50): always construct contains both blocking and non-blocking assignments File: D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/ann_architecture.v Line: 50

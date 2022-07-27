@@ -1,0 +1,1092 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/simulation/modelsim
+vadd_fp_32bit
+Z1 !s110 1651755380
+!i10b 1
+!s100 fUz=gg7:l^mQ6bQGcQ9zH3
+IGL<USVW1SKU^e2BL2F^j:2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1649907058
+Z4 8D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/add_fp_32bit.v
+Z5 FD:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/add_fp_32bit.v
+L0 2616
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1651755380.000000
+Z8 !s107 D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/add_fp_32bit.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier|D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/add_fp_32bit.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work {+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier}
+Z12 tCvgOpt 0
+vadd_fp_32bit_altbarrel_shift_aeb
+R1
+!i10b 1
+!s100 dA:h>oX>2ZDljODnbGjen2
+IW=a[DTnnK^o3f^6^[J:O03
+R2
+R0
+R3
+R4
+R5
+L0 116
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altbarrel_shift_ltd
+R1
+!i10b 1
+!s100 o9XXe7dV2Q7A9R_1AlTiY3
+IA`al^mcN6E26k]Le[S4I11
+R2
+R0
+R3
+R4
+R5
+Z13 L0 51
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altfp_add_sub_nti
+R1
+!i10b 1
+!s100 j=3=XQILQkHoi;;mP[KeE1
+I<DMn0BG1B:jSePlae5H>a2
+R2
+R0
+R3
+R4
+R5
+L0 710
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altpriority_encoder_3e8
+R1
+!i10b 1
+!s100 FfA0LVe6g7`zHMGM:`e[W1
+Ih]>QnmA5[F_S;?FOKSBgD0
+R2
+R0
+R3
+R4
+R5
+L0 166
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altpriority_encoder_3v7
+R1
+!i10b 1
+!s100 z_3cV6fG]2z;YljSRXV6?0
+IL0WOmKE<6[0XzSG3LnDVV0
+R2
+R0
+R3
+R4
+R5
+L0 263
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altpriority_encoder_6e8
+R1
+!i10b 1
+!s100 D4o5ic;dgG]YfCKDjN1eW1
+Ic93njUb6:Q5ofTmH`@0bE2
+R2
+R0
+R3
+R4
+R5
+L0 185
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altpriority_encoder_6v7
+R1
+!i10b 1
+!s100 RYe?ML0ZB]TPDm2j:GSM52
+I@^b4Jl4Sho?`0ADLoWoCi0
+R2
+R0
+R3
+R4
+R5
+L0 279
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altpriority_encoder_be8
+R1
+!i10b 1
+!s100 dOz<6654^[G]9=EzbiFE32
+IkgoM==j^HAzl6A8chN5Mo3
+R2
+R0
+R3
+R4
+R5
+L0 218
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altpriority_encoder_bv7
+R1
+!i10b 1
+!s100 l<da@@PV9Y<Y7=_iKb=K60
+I_HXKMTiF7b<VCn7eaHnSJ3
+R2
+R0
+R3
+R4
+R5
+L0 307
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altpriority_encoder_e48
+R1
+!i10b 1
+!s100 5>2gXeObQDD;FX4m8;7Gd0
+I`mKkh?QD>J;gP0Tc9fCbz0
+R2
+R0
+R3
+R4
+R5
+L0 682
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altpriority_encoder_f48
+R1
+!i10b 1
+!s100 ^F<0g>`Qj4AJUF2c>TdQA3
+IH>hhL_]i5P8k]zOQ<NTjB2
+R2
+R0
+R3
+R4
+R5
+L0 654
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altpriority_encoder_fj8
+R1
+!i10b 1
+!s100 AkZ34L;0nG3WiES=X1lF43
+IXC9OSP?<[Oe^hFUb<OmgD1
+R2
+R0
+R3
+R4
+R5
+L0 533
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altpriority_encoder_n28
+R1
+!i10b 1
+!s100 <R>TlO@=7Xza>zbd85BOD1
+ITHNcI;nIQjTS7OK1FRKbc2
+R2
+R0
+R3
+R4
+R5
+L0 582
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altpriority_encoder_nh8
+R1
+!i10b 1
+!s100 c>kW1POdZoW`BGCT]<[VT2
+IYNXR[kOSNTJOZ?e9Pmn2g0
+R2
+R0
+R3
+R4
+R5
+L0 448
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altpriority_encoder_q28
+R1
+!i10b 1
+!s100 k25N_LIC@7CIz0jMZ_1Ki2
+IbIDBIn2]PEYd^XQKWO@OE1
+R2
+R0
+R3
+R4
+R5
+L0 598
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altpriority_encoder_qb6
+R1
+!i10b 1
+!s100 =n6SfE]^CQ_>A;Gl8z@Jo3
+IY4WboR4GnR2hzY7AEz2A[2
+R2
+R0
+R3
+R4
+R5
+L0 400
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altpriority_encoder_qh8
+R1
+!i10b 1
+!s100 KYG8Vj3Of3^IDWFn:7JOC3
+IK8]JK<GASeG:M<Nn[zkQ`1
+R2
+R0
+R3
+R4
+R5
+L0 467
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altpriority_encoder_r08
+R1
+!i10b 1
+!s100 PbWBXOV[lRZho820]dk@I1
+IjG7J;K0hMVQlZG44n]0@Z2
+R2
+R0
+R3
+R4
+R5
+L0 335
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altpriority_encoder_rf8
+R1
+!i10b 1
+!s100 OV:e=4mNOKWz_PTS3SjWo0
+I:XOnCj5KVbdQZ43=PPMF>3
+R2
+R0
+R3
+R4
+R5
+L0 367
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altpriority_encoder_v28
+R1
+!i10b 1
+!s100 <>4ZKDRcz`T>n<oJTQjHQ1
+Ii7S0:IPXhlahl4:51EFZc3
+R2
+R0
+R3
+R4
+R5
+L0 626
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vadd_fp_32bit_altpriority_encoder_vh8
+R1
+!i10b 1
+!s100 `BI4j19H_8be7zCD25RcO0
+InK;MZ1PaF^fP^E[DCmN7j0
+R2
+R0
+R3
+R4
+R5
+L0 500
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vaddress_gen
+R1
+!i10b 1
+!s100 ;QjGNAo<PPUfnI@3V>UiF2
+Ig[eiJVLOCTf8A2l10DH<h0
+R2
+R0
+w1651492526
+8D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/address_generator.v
+FD:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/address_generator.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/address_generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier|D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/address_generator.v|
+!i113 1
+R10
+R11
+R12
+vann_architecture
+R1
+!i10b 1
+!s100 @=?o`9KXSFNG8N7bdLViE1
+IIJ?eljeH:<Sge4dSo06LX0
+R2
+R0
+w1651750449
+8D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/ann_architecture.v
+FD:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/ann_architecture.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/ann_architecture.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier|D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/ann_architecture.v|
+!i113 1
+R10
+R11
+R12
+vBiasesLayer01
+R1
+!i10b 1
+!s100 ^6Wf3YU?nAd2O7g_dDfYj2
+IQ8@4^W^VY9ken9e_>R5FH1
+R2
+R0
+w1651563621
+8D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/BiasesLayer01.v
+FD:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/BiasesLayer01.v
+Z14 L0 40
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/BiasesLayer01.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier|D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/BiasesLayer01.v|
+!i113 1
+R10
+R11
+R12
+n@biases@layer01
+vBiasesLayer12
+Z15 !s110 1651755381
+!i10b 1
+!s100 hhS05z=[PPB[?QEEddSBm3
+ImF>^HDI8j>V1mBSz9f2aO3
+R2
+R0
+w1651563668
+8D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/BiasesLayer12.v
+FD:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/BiasesLayer12.v
+R14
+R6
+r1
+!s85 0
+31
+Z16 !s108 1651755381.000000
+!s107 D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/BiasesLayer12.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier|D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/BiasesLayer12.v|
+!i113 1
+R10
+R11
+R12
+n@biases@layer12
+vfixed32_float32
+R1
+!i10b 1
+!s100 QjzSZ7WTI`R14_9QXnJ@M0
+I@cNPN3l7n4KSW06Wg>W8n1
+R2
+R0
+Z17 w1651492410
+Z18 8D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/fixed32_float32.v
+Z19 FD:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/fixed32_float32.v
+L0 829
+R6
+r1
+!s85 0
+31
+R7
+Z20 !s107 D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/fixed32_float32.v|
+Z21 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier|D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/fixed32_float32.v|
+!i113 1
+R10
+R11
+R12
+vfixed32_float32_altbarrel_shift_fof
+R1
+!i10b 1
+!s100 5DQ]PKm0Kn=HDnNJW7P3j1
+IERf;:adU=Z>U^je`eH:Wh3
+R2
+R0
+R17
+R18
+R19
+R13
+R6
+r1
+!s85 0
+31
+R7
+R20
+R21
+!i113 1
+R10
+R11
+R12
+vfixed32_float32_altfp_convert_e0n
+R1
+!i10b 1
+!s100 >CDKZF<>NIhUPgC;fUz1[2
+IkjTdH2coSRP73JDe>UD212
+R2
+R0
+R17
+R18
+R19
+L0 418
+R6
+r1
+!s85 0
+31
+R7
+R20
+R21
+!i113 1
+R10
+R11
+R12
+vfixed32_float32_altpriority_encoder_3e8
+R1
+!i10b 1
+!s100 OFi7hJ2NGZ0zQj4Fi:0DB3
+I[=ThL7ZXjo>j80_C[ZcFE2
+R2
+R0
+R17
+R18
+R19
+L0 156
+R6
+r1
+!s85 0
+31
+R7
+R20
+R21
+!i113 1
+R10
+R11
+R12
+vfixed32_float32_altpriority_encoder_3v7
+R1
+!i10b 1
+!s100 [Y_ULVWS`?N9:];W39F?Z0
+ICMSNW`dEYXFWV_F]ccJFz1
+R2
+R0
+R17
+R18
+R19
+L0 253
+R6
+r1
+!s85 0
+31
+R7
+R20
+R21
+!i113 1
+R10
+R11
+R12
+vfixed32_float32_altpriority_encoder_6e8
+R1
+!i10b 1
+!s100 zgz3h=Hl_J1Y`CFe0B27X1
+IVVcJiEd5=d7X0C4nQUKTR0
+R2
+R0
+R17
+R18
+R19
+L0 175
+R6
+r1
+!s85 0
+31
+R7
+R20
+R21
+!i113 1
+R10
+R11
+R12
+vfixed32_float32_altpriority_encoder_6v7
+R1
+!i10b 1
+!s100 CnanGR<6g40][NL1aTDP12
+IdVD=H>6NZ9QXGYDPCISAl2
+R2
+R0
+R17
+R18
+R19
+L0 269
+R6
+r1
+!s85 0
+31
+R7
+R20
+R21
+!i113 1
+R10
+R11
+R12
+vfixed32_float32_altpriority_encoder_be8
+R1
+!i10b 1
+!s100 n:ZH1`hc]9I7aUH7TaXjL3
+I91KSI4iD`4@8gzOX[KQ7Q1
+R2
+R0
+R17
+R18
+R19
+L0 208
+R6
+r1
+!s85 0
+31
+R7
+R20
+R21
+!i113 1
+R10
+R11
+R12
+vfixed32_float32_altpriority_encoder_bv7
+R1
+!i10b 1
+!s100 n59lf[8`]l?a?BT:AclY?2
+I30Pg6bA^3VNM8zOY5dnoD2
+R2
+R0
+R17
+R18
+R19
+L0 297
+R6
+r1
+!s85 0
+31
+R7
+R20
+R21
+!i113 1
+R10
+R11
+R12
+vfixed32_float32_altpriority_encoder_qb6
+R1
+!i10b 1
+!s100 ?On4<EhC<e11UYVc1eoI:3
+I[>8V?]0UVGf[JM<<3HQaD0
+R2
+R0
+R17
+R18
+R19
+L0 390
+R6
+r1
+!s85 0
+31
+R7
+R20
+R21
+!i113 1
+R10
+R11
+R12
+vfixed32_float32_altpriority_encoder_r08
+R1
+!i10b 1
+!s100 L?fUO[henZD<=4MBCOOfm0
+IT9;J^?kVoHD9L@mH>3TD=2
+R2
+R0
+R17
+R18
+R19
+L0 325
+R6
+r1
+!s85 0
+31
+R7
+R20
+R21
+!i113 1
+R10
+R11
+R12
+vfixed32_float32_altpriority_encoder_rf8
+R1
+!i10b 1
+!s100 SeOBnd><0^C12jGQ_bB_Y3
+IIfQ2`KC^8Z6?1RTj:JThM0
+R2
+R0
+R17
+R18
+R19
+L0 357
+R6
+r1
+!s85 0
+31
+R7
+R20
+R21
+!i113 1
+R10
+R11
+R12
+vfloat32_fixed32
+R1
+!i10b 1
+!s100 j88J43@n6h7FBDO=UMbbQ1
+IYMPJABOJmT<c6J>KnT4hc1
+R2
+R0
+Z22 w1651492366
+Z23 8D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/float32_fixed32.v
+Z24 FD:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/float32_fixed32.v
+L0 951
+R6
+r1
+!s85 0
+31
+R7
+Z25 !s107 D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/float32_fixed32.v|
+Z26 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier|D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/float32_fixed32.v|
+!i113 1
+R10
+R11
+R12
+vfloat32_fixed32_altbarrel_shift_g4h
+R1
+!i10b 1
+!s100 `<b<=D7zSTJSG59N4T__D1
+Izl@A6z8n0<6GLmzUA3TRl2
+R2
+R0
+R22
+R23
+R24
+R13
+R6
+r1
+!s85 0
+31
+R7
+R25
+R26
+!i113 1
+R10
+R11
+R12
+vfloat32_fixed32_altfp_convert_e0n
+R1
+!i10b 1
+!s100 FjVT^z_R^?aAC=@X12Dlj1
+IIME83O;zU`b[LVYPMEMSU1
+R2
+R0
+R22
+R23
+R24
+L0 147
+R6
+r1
+!s85 0
+31
+R7
+R25
+R26
+!i113 1
+R10
+R11
+R12
+vip2
+R15
+!i10b 1
+!s100 Bgo?7A85eOSC7bS`?<3Xc1
+Io:o]_j3m2RL3=:hB4VEWA1
+R2
+R0
+w1651651521
+8D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/ip2.v
+FD:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/ip2.v
+R14
+R6
+r1
+!s85 0
+31
+R16
+!s107 D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/ip2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier|D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/ip2.v|
+!i113 1
+R10
+R11
+R12
+vmult_ll01
+R15
+!i10b 1
+!s100 0Dj_Y7E@]hCdEOgof@T1d1
+II_OY?ZXV=@WOSNAZSDTnz0
+R2
+R0
+w1651742111
+8D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/db/mult_ll01.v
+FD:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/db/mult_ll01.v
+L0 101
+R6
+r1
+!s85 0
+31
+R16
+!s107 D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/db/mult_ll01.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/db|D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/db/mult_ll01.v|
+!i113 1
+R10
+Z27 !s92 -vlog01compat -work work {+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/db}
+R12
+vmult_ncs
+R15
+!i10b 1
+!s100 3U:TMLCR]6?RBKaVm6>`_3
+Ib5UzVRcQaQXzhaiF0Hc>K0
+R2
+R0
+w1649906282
+8D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/db/mult_ncs.v
+FD:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/db/mult_ncs.v
+L0 29
+R6
+r1
+!s85 0
+31
+R16
+!s107 D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/db/mult_ncs.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/db|D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/db/mult_ncs.v|
+!i113 1
+R10
+R27
+R12
+vmultiplier_fp_32bit
+R1
+!i10b 1
+!s100 5JS_aQPFaDYiCZ0Ji7LQX0
+IDgBS5QOG3M@CehJ=cF=8L2
+R2
+R0
+Z28 w1649906217
+Z29 8D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/multiplier_fp_32bit.v
+Z30 FD:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/multiplier_fp_32bit.v
+L0 511
+R6
+r1
+!s85 0
+31
+R7
+Z31 !s107 D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/multiplier_fp_32bit.v|
+Z32 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier|D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/multiplier_fp_32bit.v|
+!i113 1
+R10
+R11
+R12
+vmultiplier_fp_32bit_altfp_mult_fkn
+R1
+!i10b 1
+!s100 @NKQY0adGRjHnbn>CIQmi3
+IC_=iT4<L0=zVQMZ0nLTHL2
+R2
+R0
+R28
+R29
+R30
+L0 47
+R6
+r1
+!s85 0
+31
+R7
+R31
+R32
+!i113 1
+R10
+R11
+R12
+vsigmoid_approx
+R1
+!i10b 1
+!s100 I<UmiDBS9FU`SL3`9=9[c3
+I^=MUb:K9L]cgJZI[DJ::]2
+R2
+R0
+w1651492584
+8D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/activation_function_FixedPt32.v
+FD:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/activation_function_FixedPt32.v
+L0 6
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/activation_function_FixedPt32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier|D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/activation_function_FixedPt32.v|
+!i113 1
+R10
+R11
+R12
+vWeightsLayer01
+R1
+!i10b 1
+!s100 MGmaYQRhIn4XnBMzUa51O2
+I]J4[<;jkQ4Z88Z[?k]T?N0
+R2
+R0
+w1651502013
+8D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/WeightsLayer01.v
+FD:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/WeightsLayer01.v
+R14
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/WeightsLayer01.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier|D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/WeightsLayer01.v|
+!i113 1
+R10
+R11
+R12
+n@weights@layer01
+vWeightsLayer12
+R1
+!i10b 1
+!s100 aLS@`Ed@WF1<=17_J850Y3
+IUBK1Md@]e2hlW3m]<eJ9:3
+R2
+R0
+w1651502172
+8D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/WeightsLayer12.v
+FD:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/WeightsLayer12.v
+R14
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/WeightsLayer12.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier|D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/WeightsLayer12.v|
+!i113 1
+R10
+R11
+R12
+n@weights@layer12

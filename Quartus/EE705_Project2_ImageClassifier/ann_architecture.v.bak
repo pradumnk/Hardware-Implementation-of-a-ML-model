@@ -1,0 +1,135 @@
+module ann_architecture (input in, input clk, input start, input reset, output out);
+
+wire [15:0] address_a1, address_b1, address_bias1;
+wire [15:0] address_a2, address_b2, address_bias2;
+wire [31:0] wtx_a, wtx_b, res_c, res_d;
+
+
+integer i=1;
+
+
+localparam log2_slow_down_factor = 4;
+reg [log2_slow_down_factor-1 : 0] k_bit_counter = 0 ;
+wire clk_address;
+assign clk_address = k_bit_counter[ log2_slow_down_factor-1 ] ;
+always @(posedge clk) begin
+	k_bit_counter = k_bit_counter + 1 ;
+end
+
+
+address_gen address_gen_unit1 (address_enable, clk_address, reset, address_a1, address_b1);
+ip0 ip0_inst1 (address_a1, address_b1, clk, x_a, x_b);
+
+integer Xin_i=1;
+reg [31:0] Xin [1:64];
+always @(clk_address)
+begin
+Xin[Xin_i] <= x_a;
+Xin[Xin_i+1] <= x_b;
+Xin_i <= Xin_i + 2;
+end
+
+wire [31:0] x_a, x_b, weights01_a, weights01_b;
+WeightsLayer_0_1 WeightsLayer_0_1_inst1 (address_a1, address_b1, clk, weights01_a, weights01_b);
+
+integer Win01_i=1;
+reg [31:0] Win01 [1:640];
+always @(clk_address)
+begin
+Win01[Win01_i] <= weights_0_1_a;
+Win01[Win01_i+1] <= weights_0_1_b;
+Win01_i <= Win01_i + 2;
+end
+
+
+multiplier_fp_32bits multiplier1 (clk, x_a, weights_0_1_a, wtx_a);
+multiplier_fp_32bits multiplier2 (clk, x_b, weights_0_1_b, wtx_b);
+
+
+reg [31:0] wtx_reg [1:640];
+always @(clk_address)
+begin
+wtx_reg[i] <=  wtx_a;
+wtx_reg[i+1] <=  wtx_b;
+i=i+2;
+end
+
+
+genvar j;
+wire [31:0] adder_op_stage1_1_wire[1:320];
+generate 
+	for(j=1;j<640;j=j+2) 
+	begin : stage1_1
+	adder_fp_32bits adder1_1 (clk, wtx_reg[j], wtx_reg[j+1], adder_op_stage1_1_wire[(j+1)/2]);
+	end
+endgenerate
+
+wire [31:0] adder_op_stage1_2_wire[1:160];
+generate 
+	for(j=1;j<320;j=j+2) 
+	begin : stage1_2
+	adder_fp_32bits adder1_2 (clk, adder_op_stage1_1_wire[j], adder_op_stage1_1_wire[j+1], adder_op_stage1_2_wire[(j+1)/2]);
+	end
+endgenerate
+
+wire [31:0] adder_op_stage1_3_wire[1:80];
+generate 
+	for(j=1;j<160;j=j+2) 
+	begin : stage1_3
+	adder_fp_32bits adder1_3 (clk, adder_op_stage1_2_wire[j], adder_op_stage1_2_wire[j+1], adder_op_stage1_3_wire[(j+1)/2]);
+	end
+endgenerate
+
+wire [31:0] adder_op_stage1_4_wire[1:40];
+generate 
+	for(j=1;j<80;j=j+2) 
+	begin : stage1_4
+	adder_fp_32bits adder1_4 (clk, adder_op_stage1_3_wire[j], adder_op_stage1_3_wire[j+1], adder_op_stage1_4_wire[(j+1)/2]);
+	end
+endgenerate
+
+wire [31:0] adder_op_stage1_5_wire[1:20];
+generate 
+	for(j=1;j<40;j=j+2) 
+	begin : stage1_5
+	adder_fp_32bits adder1_5 (clk, adder_op_stage1_4_wire[j], adder_op_stage1_4_wire[j+1], adder_op_stage1_5_wire[(j+1)/2]);
+	end
+endgenerate
+
+
+wire [31:0] adder_op_stage1_6_wire[1:10];
+generate 
+	for(j=1;j<20;j=j+2) 
+	begin : stage1_6
+	adder_fp_32bits adder1_6 (clk, adder_op_stage1_5_wire[j], adder_op_stage1_5_wire[j+1], adder_op_stage1_6_wire[(j+1)/2]);
+	end
+endgenerate
+
+
+reg [31:0] adder_op_stage1_6_wire_FixedPt[1:10];
+generate 
+	for(j=1;j<=10;j=j+1) 
+	begin : ConersionStage1
+	float_fixed_16bitsConvert convertor_stage1 (clk, adder_op_stage1_6_wire[j], adder_op_stage1_6_wire_FixedPt[j]);
+	end
+endgenerate
+
+
+wire [31:0] stage1_op_FixedPt[1:10];
+generate
+	for(j=1;j<=10;j=j+1)
+	begin : Sigmoid_Stage1
+	sigmoid_approx sigmoid1 (adder_op_stage1_6_wire_FixedPt[j], stage1_op_FixedPt[j]);
+	end
+endgenerate
+
+
+reg [31:0] stage1_op[1:10];
+generate 
+	for(j=1;j<=10;j=j+1) 
+	begin : ConersionStage2
+	fixed_float_16bitsConvert convertor_stage2 (clk, stage1_op_FixedPt[j], stage1_op[j]);
+	end
+endgenerate
+
+endmodule

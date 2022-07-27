@@ -1,0 +1,13 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/Documents/Quartus\ Projects/EE705_Project2_ImageClassifier {D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/address_generator.v}
+vlog -vlog01compat -work work +incdir+D:/Documents/Quartus\ Projects/EE705_Project2_ImageClassifier {D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/ann_architecture.v}
+vlog -vlog01compat -work work +incdir+D:/Documents/Quartus\ Projects/EE705_Project2_ImageClassifier {D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/WeightsLayer01.v}
+vlog -vlog01compat -work work +incdir+D:/Documents/Quartus\ Projects/EE705_Project2_ImageClassifier {D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/WeightsLayer12.v}
+vlog -vlog01compat -work work +incdir+D:/Documents/Quartus\ Projects/EE705_Project2_ImageClassifier {D:/Documents/Quartus Projects/EE705_Project2_ImageClassifier/ip1.v}
+
